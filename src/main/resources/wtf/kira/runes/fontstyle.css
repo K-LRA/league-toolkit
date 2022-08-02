@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Beaufort for LOL';
+    src: url('fonts/beaufortforlol-bold.otf') format("otf");
+}
+
+@font-face {
+    font-family: 'Spiegel Regular';
+    src: url('fonts/spiegel-regular.otf') format("otf");
+}
+
+@font-face {
+    font-family: 'Spiegel Bold';
+    src: url('fonts/spiegel-bold.otf') format("otf");
+}
+
+#menuToggleButton {
+    -fx-font-family: 'Beaufort for LOL';
+    -fx-font-size: 16.0;
+}
+
+#titleLabel, #champSelectBuildTitle {
+    -fx-font-family: 'Beaufort for LOL';
+    -fx-text-fill: #f0e6d2;
+    -fx-font-size: 32.0;
+}
+
+#champSelectBuildTitle {
+    -fx-font-family: 'Beaufort for LOL';
+    -fx-text-fill: #f0e6d2;
+    -fx-font-size: 24.0;
+}
+
+.label, .text-field, .button, #champSelectButton {
+    -fx-font-family: 'Beaufort for LOL';
+    -fx-text-fill: #f0e6d2;
+}
+
+#titleRankedDetails {
+    -fx-text-fill: #b5a77f;
+    -fx-font-size: 18.0;
+}
+
+#titleRank, #champSelectButton {
+    -fx-text-fill: #e9e1cd;
+    -fx-font-size: 14.0;
+}
+
+#multiSearchResultName, #gameModeName, #liveGameSummonerNameLabel {
+    -fx-font-family: 'Beaufort for LOL';
+    -fx-text-fill: white;
+    -fx-font-size: 16.0;
+}
+
+#multiSearchResultRankName, #liveGameWinRateLabel, #liveGameGamesPlayedLabel, #liveGameRankLabel {
+    -fx-font-family: 'Beaufort for LOL';
+    -fx-text-fill: white;
+    -fx-font-size: 13.0;
+}
+
+#multiSearchResultGameResult {
+    -fx-font-family: 'Beaufort for LOL';
+    -fx-text-fill: white;
+    -fx-font-size: 11.0;
+}
+
+#LoggedInAs {
+    -fx-font-family: 'Beaufort for LOL';
+    -fx-text-fill: white;
+    -fx-font-size: 14.0;
+}

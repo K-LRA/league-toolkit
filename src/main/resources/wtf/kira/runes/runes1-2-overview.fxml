@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wtf.kira.runes.AppController">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+            <ToggleButton fx:id="menuButtonOverview" mnemonicParsing="false" text="Overview" />
+            <ToggleButton fx:id="menuButtonMatchHistory" layoutX="10.0" layoutY="13.0" mnemonicParsing="false" text="Match History" />
+            <ToggleButton fx:id="menuButtonLiveGame" layoutX="79.0" layoutY="13.0" mnemonicParsing="false" text="Live Game" />
+            <ToggleButton fx:id="menuButtonRunes" layoutX="174.0" layoutY="13.0" mnemonicParsing="false" text="Runes" />
+        </items>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </ToolBar>
+   </top>
+</BorderPane>
