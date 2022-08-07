@@ -19,12 +19,6 @@ import kotlin.system.exitProcess
 
 class OphieGG: Application() {
 
-    // TODO: make consecutive searches more responsive/'feel better'; slight lag when searching @MultiSearchTask
-    // TODO: fix spam searching and flooding match history; de-couple Match History from Overview and add Summoner name and rank to Match History at top @UpdateMatchHistoryTask
-    // TODO: add Live Game @UpdateLiveGameTask
-    // TODO: Update Overview to stats pulled from LCU API--always update Overview to stats of connected League acct @UpdateOverviewTask
-    // TODO: Make Multi Search results clickable, fix lag
-
     companion object {
 
         val backgroundRegion = Region()
